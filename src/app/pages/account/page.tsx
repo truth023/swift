@@ -1,7 +1,7 @@
 import React from 'react'
 import Table from './table'
-import {PiStudentFill} from 'react-icons/pi'
-import {PiGearBold} from 'react-icons/pi'
+import { PiStudentFill } from 'react-icons/pi'
+import { PiGearBold } from 'react-icons/pi'
 import Link from 'next/link'
 
 export default function page() {
@@ -15,7 +15,7 @@ export default function page() {
                     </p>
                     <div className='flex flex-row gap-5 ml-4 mb-6 '>
                         <PiStudentFill color='#023E89'
-                            size={'38px'}/>
+                            size={'38px'} />
                         <p className='text-[18px] font-bold'>
                             <Link href={'/pages/home'}>
                                 Home
@@ -25,7 +25,7 @@ export default function page() {
                     </div>
                     <div className='flex flex-row gap-5 ml-4 mb-6 border-r-4 border-r-[#023E89]'>
                         <PiGearBold color='#023E89'
-                            size={'38px'}/>
+                            size={'38px'} />
                         <p className='text-[18px] font-bold'>
 
                             <Link href={'/pages/account'}>
@@ -43,25 +43,25 @@ export default function page() {
                                 <div>
                                     <label htmlFor="full-name" className="block text-sm font-semibold leading-6 text-gray-900">Full name</label>
                                     <div className="mt-2.5">
-                                        <input type="text" placeholder='Jhon' name="full-name" id="full-name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="text" placeholder='Jhon' name="full-name" id="full-name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
                                 <div className=' mt-6'>
                                     <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">School Email</label>
                                     <div className="mt-2.5">
-                                        <input type="text" placeholder='JohnDoe@gmail.com' name="email" id="email" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="text" placeholder='JohnDoe@gmail.com' name="email" id="email" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
                                 <div className=' mt-6'>
                                     <label htmlFor="subject" className="block text-sm font-semibold leading-6 text-gray-900">Billing Address</label>
                                     <div className="mt-2.5">
-                                        <input type="text" placeholder='123 Ez Street.' name="subject" id="subject" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="text" placeholder='123 Ez Street.' name="subject" id="subject" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
                                 <div className=' mt-6'>
                                     <label htmlFor="subject" className="block text-sm font-semibold leading-6 text-gray-900">Personal Email</label>
                                     <div className="mt-2.5">
-                                        <input type="text" placeholder='JohnDoe@notschool..' name="subject" id="subject" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="text" placeholder='JohnDoe@notschool..' name="subject" id="subject" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
                             </div>
@@ -69,19 +69,19 @@ export default function page() {
                                 <div>
                                     <label htmlFor="full-name" className="block text-sm font-semibold leading-6 text-gray-900">Last Name</label>
                                     <div className="mt-2.5">
-                                        <input type="text" placeholder='Doe' name="full-name" id="full-name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="text" placeholder='Doe' name="full-name" id="full-name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
                                 <div className=' mt-6'>
                                     <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">School Passcode</label>
                                     <div className="mt-2.5">
-                                        <input type="password" placeholder='Jhon' name="email" id="email" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="password" placeholder='Jhon' name="email" id="email" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
                                 <div className=' mt-6'>
                                     <label htmlFor="subject" className="block text-sm font-semibold leading-6 text-gray-900">Billing Card</label>
                                     <div className="mt-2.5">
-                                        <input type="password" placeholder='Jhon' name="subject" id="subject" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                        <input type="password" placeholder='Jhon' name="subject" id="subject" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                     </div>
                                 </div>
 
@@ -94,7 +94,7 @@ export default function page() {
                     <>
                         <p className='text-[40px] leading-[30px] font-bold my-8'>Past Orders<span className="bg-blue-100 text-[26px] text-blue-800 font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">33</span>
                         </p>
-                        <Table/>
+                        <Table />
                     </>
 
                 </div>
