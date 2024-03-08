@@ -2,7 +2,6 @@ import React from 'react'
 import { PiStudentFill } from 'react-icons/pi'
 import { ImBooks } from 'react-icons/im'
 import Image from 'next/image'
-
 export default function Body() {
     return (
         <div className='flex flex-col gap-40 px-28'>
