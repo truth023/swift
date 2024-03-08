@@ -7,10 +7,6 @@ export default function Body() {
     return (
         <div className='flex flex-col gap-40 px-28'>
             <div className='container flex flex-row gap-10 pt-10'>
-
-
-
-
                 <div className='flex flex-col w-6/12 gap-3'>
                     <div className='flex flex-col mb-10'>
                         <p className='text-[80px] text-[#333]'>Don’t stress</p>

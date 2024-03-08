@@ -7,10 +7,6 @@ export default function Header() {
                 <span className='text-[#023E89]'>Swift</span>
                 Study
             </p>
-
-
-
-
             <ul className="flex flex-row gap-10">
                 <li className=" text-[14px] text-[#023E89] cursor-pointer">
                     <Link href={'./pages/home'}>Home</Link>
